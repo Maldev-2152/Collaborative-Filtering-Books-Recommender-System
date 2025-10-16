@@ -83,7 +83,7 @@ Collaborative-Filtering-Books-Recommender/
 
 3. Run the script:
    ```bash
-   python pdfminning.py
+   python recommend.py
 
 
 ## Dataset
