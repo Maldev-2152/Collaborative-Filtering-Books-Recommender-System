@@ -1,20 +1,90 @@
-# Book recommendation system
+# Collaborative Filtering Books Recommender System
+
 <p align="center">
-<img alt="Last commit" src="https://img.shields.io/github/last-commit/zuba0/Book-recommendation-system"/>
-</p>
 
 *If you don’t like to read, you haven’t found the right book* - J.K. Rowling
 
-## Project description
-The goal of this project is creation of books recommendation system.
-I compared different models and collaborative filtering approaches to find the best solution.
+</p>
 
-## Installation
-This project is written in Python 3.8.3.
-The `requirements.txt` file contains all required Python libraries. They can be installed using:
-```
-pip install -r requirements.txt
-```
+---
+
+## 📌 Description
+
+The **Collaborative Filtering Books Recommender System** is a project aimed at building a recommendation engine that suggests books to users based on collaborative filtering techniques. The project explores various collaborative filtering approaches and compares their effectiveness in generating personalized book recommendations.
+
+The system leverages user ratings data to provide book suggestions, utilizing methods like **KNN-based approaches** and **Singular Value Decomposition (SVD)**. The goal is to recommend books that align with users' interests based on their previous interactions and preferences.
+
+---
+
+## ⚙️ Demo
+
+### 🔹 Book Recommendations  
+Upload or input user data, and the system will predict personalized book recommendations.  
+
+### 🔹 Visualizations  
+Visualization of the recommendation results can be generated for analysis and insights.
+
+---
+
+## 💡 Features
+
+- **Collaborative Filtering**: Utilizes user-item interactions to recommend books.
+- **Multiple Models**: Includes several collaborative filtering models such as KNN, SVD, and more.
+- **Evaluation Metrics**: RMSE (Root Mean Square Error) and MAE (Mean Absolute Error) are used to evaluate model performance.
+- **Data Visualization**: Results are visualized for better insight into model performance.
+- **Easy-to-Use**: Simple setup and easy-to-follow installation guide.
+
+---
+
+## ⚙️ Built With
+
+- [Python](https://www.python.org/)
+- [Surprise](http://surpriselib.com/) (for collaborative filtering)
+- [Pandas](https://pandas.pydata.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [NumPy](https://numpy.org/)
+- [scikit-learn](https://scikit-learn.org/)
+
+---
+
+## 📂 Project Structure
+
+Collaborative-Filtering-Books-Recommender/
+- │
+- ├── prediction.PNG            # Sample prediction image
+- ├── Collaborative filtering methods.ipynb  # Jupyter Notebook with implementation details
+- ├── README.md                 # Project documentation
+- ├── eda.py                    # Exploratory Data Analysis script
+- ├── grid_search.py            # Script for hyperparameter tuning using grid search
+- ├── recommend.py              # Main recommendation engine
+- ├── requirements.txt          # List of dependencies
+- └── results_visualization.py  # Script for visualizing model performance
+
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Python 3.8+
+- pip (Python package installer)
+
+### 📥 Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Maldev-2152/Collaborative-Filtering-Books-Recommender-System.git
+   cd Collaborative-Filtering-Books-Recommender-System
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the script:
+   ```bash
+   python pdfminning.py
+
 
 ## Dataset
 
@@ -39,4 +109,4 @@ The best [RMSE](https://en.wikipedia.org/wiki/Root-mean-square_deviation) and [M
 
 ## Example
 
-![alt text](pictures/prediction.PNG)
+![alt text](prediction.PNG)
